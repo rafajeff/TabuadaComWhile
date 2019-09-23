@@ -9,7 +9,7 @@ namespace Tabuada
             int i = 0;
             int n = 0;
 
-            Console.WriteLine("Digite um número do qual quer saber a tabuada");
+            Console.WriteLine("Digite um número do qual você quer saber a tabuada");
             n = int.Parse(Console.ReadLine());
             Console.WriteLine("");
             while (i <= 10 ) 
