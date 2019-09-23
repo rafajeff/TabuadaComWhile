@@ -12,10 +12,11 @@ namespace Tabuada
             Console.WriteLine("Digite um número do qual quer saber a tabuada");
             n = int.Parse(Console.ReadLine());
             Console.WriteLine("");
-            while (i < 11 ) 
+            while (i <= 10 ) 
             {
-                Console.WriteLine(i*n);
+                Console.WriteLine($"{n} X {i} = { i* n}");
                 i++;
+
             }
             
         }
